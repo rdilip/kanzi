@@ -3,8 +3,10 @@
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 ![Python](https://img.shields.io/badge/python-3.10|3.11|3.12-blue)
 
+![Kanzi schematic](assets/figure1.png)
 Kanzi is a family of discrete tokenizers for modeling biological structures.  
 It is parameter-efficient (30M), fast to tokenize, and does not rely on complex SE(3)-invariant architectures.
+
 
 ---
 
@@ -19,7 +21,6 @@ or with [uv](https://github.com/astral-sh/uv):
 ```bash
 uv pip install -e .
 ```
-
 ---
 
 ## Quick Start
