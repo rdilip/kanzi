@@ -1,0 +1,29 @@
+[project]
+name = "kanzi"
+version = "0.1.0"
+description = "Kanzi: A Family of Diffusion Tokenizers for protein structures"
+readme = "README.md"
+authors = [
+    { name = "Rohit Dilip", email = "rdilip1137@gmail.com" }
+]
+requires-python = ">=3.10"
+dependencies = [
+    "biotite>=1.2.0",
+    "einops>=0.8.1",
+    "jax>=0.6.2",
+    "jaxtyping>=0.3.2",
+    "loguru>=0.7.3",
+    "numpy>=2.2.6",
+    "timm>=1.0.20",
+    "torch>=2.8.0",
+    "torchdiffeq>=0.2.5",
+]
+
+[project.scripts]
+kanzi = "kanzi:main"
+
+
+[project.urls]
+Homepage = "https://github.com/rdilip/kanzi"
+Issues   = "https://github.com/rdilip/kanzi/issues"
+
