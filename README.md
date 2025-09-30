@@ -25,6 +25,9 @@ uv pip install -e .
 
 ## Quick Start
 
+First, [download a pretrained Kanzi checkpoint](https://drive.google.com/uc?export=download&id=1ZOcqJ9E3aC-m6letqXR3iruNBMzMKAEm)
+
+
 ```python
 from kanzi import DAE, kabsch_rmsd
 import fastpdb
