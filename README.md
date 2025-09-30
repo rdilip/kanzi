@@ -98,6 +98,8 @@ Coming soon! In the interim, we use the standard AFDB-Foldseek clustered dataset
 
 ## Citation
 
+Kanzi uses code from several other packages, notably [Proteina](https://github.com/NVIDIA-Digital-Bio/proteina) and [torchCFM](https://github.com/atong01/conditional-flow-matching). 
+
 If you use **Kanzi**, please cite:
 
 ```
