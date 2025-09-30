@@ -62,7 +62,7 @@ print("Reconstruction error:", kabsch_rmsd(recon.cpu() * 10, arr.cpu()))
 
 ## Encoding
 
-The encoder is a shallow transformer with sliding-window attention, making it both efficient and fast.
+The encoder is a shallow transformer with sliding-window attention, making it both efficient and fast. The main point to be aware of is the encoding requires coordinates to be expressed in angstroms and mean centered. The following snippet describes what you need for a valid input.
 
 ```python
 coords = torch.randn(1, 100, 3)  # fake Cα-only data
