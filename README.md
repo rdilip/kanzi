@@ -1,7 +1,5 @@
 # Kanzi: Flow Autoencoders for Protein Tokenization
-
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-![Python](https://img.shields.io/badge/python-3.10|3.11|3.12-blue)
+### [Paper](https://arxiv.org/pdf/2510.00351) | [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE) ![Python](https://img.shields.io/badge/python-3.10|3.11|3.12-blue)
 
 ![Kanzi schematic](assets/figure1.png)
 Kanzi is a family of discrete tokenizers for modeling biological structures.  
