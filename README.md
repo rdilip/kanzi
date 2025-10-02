@@ -101,9 +101,10 @@ Kanzi uses code from several other packages, notably [Proteina](https://github.c
 If you use **Kanzi**, please cite:
 
 ```
-@misc{kanzi2025,
+@article{kanzi2025,
   title   = {Kanzi: Flow Autoencoders are Effective Protein Tokenizers},
   author  = {Rohit Dilip, Evan Zhang, Ayush Varshney, David Van Valen},
+  journal = {arXiv preprint arxiv:2510.00351},
   year    = {2025},
 }
 ```
