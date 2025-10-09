@@ -152,7 +152,7 @@ class TransformerBlock(nn.Module):
             pair_bias_BLL = torch.where(
                 attn_kwargs["attn_mask"], pair_bias_BLL, -torch.inf
             )
-            attn_kwargs["attn_mask"] = pair_bias_BLL
+            attn_kwargs["attn_mask"] = pair_bias_BLL.unsqueeze(1) # add head dimension
         return attn_kwargs
 
     def forward(self, s_BLD, pair_bias_BLLD, **attn_kwargs):
