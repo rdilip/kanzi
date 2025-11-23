@@ -5,6 +5,21 @@
 Kanzi is a family of discrete tokenizers for modeling biological structures.  
 It is parameter-efficient (30M), fast to tokenize, and does not rely on complex SE(3)-invariant architectures.
 
+<details>
+  <summary><strong>Kanzi gone bananas</strong></summary>
+
+  <img
+    width="1200"
+    alt="kanzi-nano-banana"
+    src="https://github.com/user-attachments/assets/5caaa7f2-1908-4b81-8e0a-199ffe2a1572"
+  />
+  <br>
+  <sub>made with &lt;3 by nano-banana pro</sub>
+</details>
+
+
+
+
 
 ---
 
