@@ -80,6 +80,11 @@ Adjusting `score_weight` controls exploration by increasing the noise scale in t
 
 ⚠️ **Important:** Some models are not trained with classifier-free guidance. In those cases, setting `cfg_weight != 1` will lead to very poor reconstructions.
 
+--
+## To-do
+- [ ] Add full-backbone tokenizer
+- [ ] Add generative model trained on Kanzi tokens
+
 ---
 
 ## Generation
